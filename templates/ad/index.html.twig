@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Notre selection d'annonces{% endblock %}
+
+{% block body %}
+<div class="container">
+<h1 class="my-4">Voici notre sélection d'annonces spécialement pour vous !</h1>
+<div class="row">
+    {% for ad in ads %}
+        {% include 'ad/_ad.html.twig' %}
+    {% endfor %}  
+</div>
+</div>
+{% endblock %}

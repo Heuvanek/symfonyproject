@@ -1,0 +1,77 @@
+@import url('./bootstrap.min.css');
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{
+    color:firebrick !important;
+}
+div.container{
+    margin-top : 20px;
+}
+div.adtitle{
+    padding :2em;
+    background-size : cover;
+    background-position : center center;
+}
+div.adtitle h1, div.adtitle p{
+    color:white;
+    text-shadow:3px 3px 3px rgba(0,0,0,0.5);
+}
+div.adtitle .btn{
+    margin-top:1.8em;
+    font-size:1.5em;
+    line-height: 1.5em;
+}
+div.carousel-caption {
+    color : white;
+    text-shadow : 3px 3px 3px rgba(0, 0, 0, 0.5); 
+}
+div.carousel-caption h5 {
+    color : white;
+    text-shadow : 3px 3px 3px rgba(0, 0, 0, 0.5); 
+}
+.avatar-medium{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+.avatar{
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 50%;
+}
+
+.avatar-mini{
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 50%;
+    padding : 0;
+    margin : 0;
+}
+.short-size{
+    font-size: 0.9em;
+}
+.error404{
+    font-size: 14em;
+}
+.error404-return{
+    font-size : 3em;
+}
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover{
+    color:firebrick !important;
+}
+span.rating i{
+    color:goldenrod;
+}
+.alert .btn{
+color:white;
+}
+span #days{
+    font-size: 1.2em ;
+}
+.short-col{
+    max-width : 250px;
+}
+.short-col-2{
+    max-width : 150px;
+}
+.vertical-divider{
+    border-right: 1px solid black;
+}
